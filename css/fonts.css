@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('fonts/ubuntu/ubuntu-r.eot');
+	src: url('fonts/ubuntu/ubuntu-r.eot') format('embedded-opentype'),
+		 url('fonts/ubuntu/ubuntu-r.woff2') format('woff2'),
+		 url('fonts/ubuntu/ubuntu-r.woff') format('woff'),
+		 url('fonts/ubuntu/ubuntu-r.ttf') format('truetype'),
+		 url('fonts/ubuntu/ubuntu-r.svg#Ubuntu') format('svg');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('fonts/ubuntu/ubuntu-m.eot');
+	src: url('fonts/ubuntu/ubuntu-m.eot') format('embedded-opentype'),
+		 url('fonts/ubuntu/ubuntu-m.woff2') format('woff2'),
+		 url('fonts/ubuntu/ubuntu-m.woff') format('woff'),
+		 url('fonts/ubuntu/ubuntu-m.ttf') format('truetype'),
+		 url('fonts/ubuntu/ubuntu-m.svg#Ubuntu') format('svg');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('fonts/ubuntu/ubuntu-b.eot');
+	src: url('fonts/ubuntu/ubuntu-b.eot') format('embedded-opentype'),
+		 url('fonts/ubuntu/ubuntu-b.woff2') format('woff2'),
+		 url('fonts/ubuntu/ubuntu-b.woff') format('woff'),
+		 url('fonts/ubuntu/ubuntu-b.ttf') format('truetype'),
+		 url('fonts/ubuntu/ubuntu-b.svg#Ubuntu') format('svg');
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('fonts/ubuntu/ubuntu-ri.eot');
+	src: url('fonts/ubuntu/ubuntu-ri.eot') format('embedded-opentype'),
+		 url('fonts/ubuntu/ubuntu-ri.woff2') format('woff2'),
+		 url('fonts/ubuntu/ubuntu-ri.woff') format('woff'),
+		 url('fonts/ubuntu/ubuntu-ri.ttf') format('truetype'),
+		 url('fonts/ubuntu/ubuntu-ri.svg#Ubuntu') format('svg');
+	font-style: italic;
+	font-weight: 800;
+}

@@ -1,0 +1,70 @@
+/* Custom CSS
+-------------------------*/
+h1,
+h2,
+h1,
+h2,
+h3,
+.da-slide h2,
+.da-slide h1,
+.da-slide h3,
+.da-slide h4,
+.da-slide h5,
+.da-slide h6,
+h4,
+h5,
+h6,
+input[type="submit"],
+input.srch-fld,
+input[type="text"],
+.adminsearchform input[type="text"],
+.da-slide,
+select, .news-updates-header a, input[type="file"] {
+  font-family: [[setting:headingfont]];
+}
+
+p,
+.da-slide p,
+html,
+textarea,
+body {
+    font-family: [[setting:bodyfont]];
+    font-style: normal;
+    font-weight: 400;
+    
+}
+body {
+    padding-top: 0 !important;
+}
+h4 {
+    margin: 0;
+}
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
+[[setting:fontfilesheading]]
+[[setting:fontfilesbody]]
+
+.landing-page .logo-wr {
+    background: url([[setting:logobackgroundimage]]) no-repeat left top;     
+}
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+	.landing-page .logo-wr {
+		background-size: 95%;
+
+	}
+}
+
+.loginpanel h2:before, a.click {
+    background-image: url([[setting:logo]]);
+}
+
+.number-section {
+    background: #f7f7f7 url([[setting:parallaxbackgroundimage]]);
+}
+
+.navbar-inner .nav-collapse.in {
+    height: auto !important;
+}
